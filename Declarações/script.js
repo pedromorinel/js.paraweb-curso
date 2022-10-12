@@ -1,4 +1,7 @@
-let a,b,c;
-a=5;
-b=6;
-c=7;
+var nome, sobrenome, nomeCompleto;
+
+nome = 'Dimitri';
+sobrenome = 'Teixeira';
+nomeCompleto = nome + ' ' + sobrenome;
+
+document.getElementById('texto').innerHTML = nomeCompleto;
